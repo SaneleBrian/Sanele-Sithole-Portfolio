@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tsconfigPaths(), // 👈 THIS fixes @ alias
   ],
-  //base: '/Sanele-Sithole-Portfolio/',
+  base: '/Sanele-Sithole-Portfolio/',
 })
