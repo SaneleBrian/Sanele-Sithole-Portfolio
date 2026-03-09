@@ -91,10 +91,12 @@ const Index = () => {
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
-                <Button size="lg" variant="outline" className="gap-2">
-                  <Download className="w-4 h-4" />
-                  Download CV
-                </Button>
+                <a href="/Sanele-Sithole-Portfolio/Sanele_Sithole_Resume.pdf" download="Sanele_Sithole_Resume.pdf">
+                  <Button size="lg" variant="outline" className="gap-2">
+                    <Download className="w-4 h-4" />
+                    Download CV
+                  </Button>
+                </a>
               </motion.div>
 
               {/* Quick Stats Inline */}

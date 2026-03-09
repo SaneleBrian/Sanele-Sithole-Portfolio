@@ -67,10 +67,12 @@ const Navbar = () => {
 
         {/* CTA Button */}
         <div className="hidden lg:flex items-center gap-4">
-          <Button variant="default" className="gap-2">
-            <Download className="w-4 h-4" />
-            Download CV
-          </Button>
+          <a href="/Sanele-Sithole-Portfolio/Sanele_Sithole_Resume.pdf" download="Sanele_Sithole_Resume.pdf">
+            <Button variant="default" className="gap-2">
+              <Download className="w-4 h-4" />
+              Download CV
+            </Button>
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -106,10 +108,12 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <Button variant="default" className="gap-2 mt-4">
-                <Download className="w-4 h-4" />
-                Download CV
-              </Button>
+              <a href="/Sanele-Sithole-Portfolio/Sanele_Sithole_Resume.pdf" download="Sanele_Sithole_Resume.pdf">
+                <Button variant="default" className="gap-2 mt-4">
+                  <Download className="w-4 h-4" />
+                  Download CV
+                </Button>
+              </a>
             </div>
           </motion.div>
         )}

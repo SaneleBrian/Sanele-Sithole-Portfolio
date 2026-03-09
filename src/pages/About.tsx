@@ -191,10 +191,12 @@ const About = () => {
               </div>
 
               <div className="flex flex-wrap gap-4 pt-4">
-                <Button className="gap-2">
-                  <Download className="w-4 h-4" />
-                  Download Resume
-                </Button>
+                <a href="/Sanele-Sithole-Portfolio/Sanele_Sithole_Resume.pdf" download="Sanele_Sithole_Resume.pdf">
+                  <Button className="gap-2">
+                    <Download className="w-4 h-4" />
+                    Download Resume
+                  </Button>
+                </a>
                 <Link to="/contact">
                   <Button variant="outline" className="gap-2 group">
                     Let's Chat
