@@ -25,7 +25,7 @@ const services = [
       'SEO Optimized',
       'Cross-browser Compatible',
     ],
-    price: 'From R5,000',
+    price: 'From R7,000',
   },
   {
     icon: Palette,
@@ -61,7 +61,7 @@ const services = [
       'System Integration',
       'Maintenance & Support',
     ],
-    price: 'From R10,000',
+    price: 'From R12,000',
   },
   {
     icon: Search,
@@ -85,7 +85,7 @@ const services = [
       'Database Design',
       'API Development',
     ],
-    price: 'From R15,000',
+    price: 'From R18,000',
   },
 ];
 
